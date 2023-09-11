@@ -2,6 +2,7 @@
 Cross-platform console tool that takes a directory path, traverses it recursively, then writes the tree to output path
 
 Output looks like this:
+```
 [D] "Root_Directory"
   [F] "DirectoryTrees.cpp"
   [F] "DirectoryTrees.vcxproj"
@@ -26,6 +27,7 @@ Output looks like this:
       [F] "DirectoryTrees.vcxproj.FileListAbsolute.txt"
       [F] "vc143.idb"
       [F] "vc143.pdb"
+```
 
 Where [D] is for directory, [F] is for file, [S] for symlink, [O] for other file types
 
